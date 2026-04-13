@@ -175,7 +175,7 @@
 			"layout": "data-table",
 			"content": {
 				"title": "Investment — invoiced line items",
-				"subtitle": "Mowalola creative direction and current work (USD) — discovery, build with MOWA on the rebuild, editor handoff, QA, and go-live as scoped",
+				"subtitle": "Mowalola creative direction ($2,000) and $1,000 for work already produced on the naomisharon.com rebuild — USD",
 				"tableRows": [
 					{
 						"Engagement": "Mowalola — creative direction",
@@ -183,8 +183,8 @@
 						"Amount": "$2,000"
 					},
 					{
-						"Engagement": "Current work",
-						"What's covered": "SvelteKit implementation (navigation, hero/motion, music/video templates); coordination with MOWA on the rebuild; content editor or agreed update path; QA; staging and production deploy through go-live for scope locked with this invoice",
+						"Engagement": "Site rebuild — work produced to date",
+						"What's covered": "Work already completed toward the official site rebuild: SvelteKit implementation (navigation, hero/motion, music/video templates), coordination with MOWA, content editor or agreed update path, QA, staging and production deploy — for scope locked with this invoice",
 						"Amount": "$1,000"
 					},
 					{
@@ -198,7 +198,7 @@
 						"All-in price": "$300* / usage based"
 					}
 				],
-				"body": "Invoiced line items on this deck: $2,000 for Mowalola creative direction and $1,000 for current implementation work (SvelteKit build, MOWA coordination, editor path, QA, deploy) as scoped above. Anything outside that locked scope is quoted before we start."
+				"body": "Invoiced line items: $2,000 for Mowalola creative direction, and $1,000 specifically for work already produced for the naomisharon.com site rebuild (implementation, MOWA coordination, editor path, QA, deploy) as scoped in the rows above. Anything outside that locked scope is quoted before we start."
 			}
 		},
 		{
