@@ -1,0 +1,222 @@
+{
+	"name": "Naomi Sharon · OVO — Website overhaul (development) · Initial proposal",
+	"type": "deck",
+	"slides": [
+		{
+			"position": 0,
+			"layout": "header-body",
+			"content": {
+				"title": "Naomi Sharon · OVO",
+				"subtitle": "Website overhaul · Creative direction + development proposal",
+				"body": "This deck summarizes the client-facing web design direction (shared creative deck) alongside an application approach, timeline, and an all-in investment aligned to a full-site overhaul of naomisharon.com — the rebuild coordinated with MOWA.\n\nInitial visual mockups can proceed in parallel with rollout planning; a full public flip stays gated until album creative and artwork are announced, per label."
+			}
+		},
+		{
+			"position": 1,
+			"layout": "grid-3",
+			"content": {
+				"title": "Brand system — logos & typography",
+				"subtitle": "From the client web design document — lock-ups and cover type",
+				"gridItems": [
+					{
+						"label": "Logos / lock-ups",
+						"value": "Use approved logo and lock-up treatments consistently across the site and digital extensions; any web-specific variants to be confirmed during discovery with final brand assets."
+					},
+					{
+						"label": "Album cover typography",
+						"value": "No Sleep In Paradise — Helvetica Neue LT Pro 45 Light (modified flatter). Artist line — Helvetica Neue LT Pro 55 Roman, tracking 300."
+					},
+					{
+						"label": "Miss That cover typography",
+						"value": "Title — Helvetica Neue LT Pro 45 Light (modified flatter). Artist — Antique Olive Light, vertically stretched."
+					}
+				],
+				"body": "Color values and full swatch specs live in the design PDF; confirm hex/RGB in Figma or source files where the PDF uses raster swatches."
+			}
+		},
+		{
+			"position": 2,
+			"layout": "grid-3",
+			"content": {
+				"title": "Creative pillars — website experience",
+				"subtitle": "Motion, immersion, and alignment with Naomi’s visual world",
+				"gridItems": [
+					{
+						"label": "Motion-first",
+						"value": "Less static imagery across the site; lean on relevant motion assets within Naomi’s distinct visual aesthetic."
+					},
+					{
+						"label": "Landing direction",
+						"value": "Water covering the home screen, naturally fading and revealing navigation overlaid on top of an animated hero asset."
+					},
+					{
+						"label": "Audio / video",
+						"value": "New navigation patterns on video and audio pages beyond a flat grid — more immersive, highlighting visuals (cover-image navigation)."
+					}
+				],
+				"body": "Each video project can open as an on-site player when clicked, before sending users to an external YouTube link — “on-site visualizers” as a first-class pattern."
+			}
+		},
+		{
+			"position": 3,
+			"layout": "split",
+			"content": {
+				"title": "Moodboard & consistency",
+				"subtitle": "Creative lift and typography across digitals",
+				"body": "The visual world of the site should align completely with Naomi’s most recent projects — giving existing assets a creative lift rather than recycling flat grids.\n\nTypography across digitals must stay cohesive with the new rollout; album-cover typography choices should inform site headings and key UI where appropriate.",
+				"gridItems": [
+					{
+						"label": "Exploration A",
+						"value": "Water running down with imagery emerging underneath."
+					},
+					{
+						"label": "Exploration B",
+						"value": "Hallway / passage through retreat — spatial, cinematic movement."
+					}
+				]
+			}
+		},
+		{
+			"position": 4,
+			"layout": "header-body",
+			"content": {
+				"title": "Recommended application stack",
+				"subtitle": "Grounded in the current official site — final choices confirmed in discovery",
+				"body": "The live property is already a fast SvelteKit app with static release art, Feature.fm smartlinks, and embedded media. The overhaul deepens motion, navigation, and content structure in lockstep with MOWA on the rebuild — CMS changes stay scoped in discovery.",
+				"gridItems": [
+					{
+						"label": "Content",
+						"value": "Start with structured data in-repo or a headless source (e.g. Sanity) if the team needs frequent updates without deploys — scoped in discovery."
+					},
+					{
+						"label": "Frontend",
+						"value": "SvelteKit + Vite — SSR/SSG, one codebase for the overhaul; progressive enhancement for video embeds and reduced-motion preferences."
+					},
+					{
+						"label": "MOWA & delivery",
+						"value": "Implementation and handoff coordinated with MOWA for the rebuild; static or edge hosting (e.g. Cloudflare Pages) with preview/staging; Git handoff at milestones."
+					}
+				]
+			}
+		},
+		{
+			"position": 5,
+			"layout": "gantt",
+			"content": {
+				"title": "Timeline",
+				"subtitle": "Indicative schedule from kickoff — exact dates TBD with label milestones",
+				"gantt": {
+					"weeks": 6,
+					"columnLabels": ["1", "2", "3", "4", "5", "6"],
+					"bars": [
+						{
+							"label": "Discovery",
+							"start": 1,
+							"span": 2,
+							"tone": "neutral"
+						},
+						{
+							"label": "Design & motion spec",
+							"start": 2,
+							"span": 2,
+							"tone": "blue"
+						},
+						{
+							"label": "Build",
+							"start": 4,
+							"span": 2,
+							"tone": "green"
+						},
+						{
+							"label": "QA & launch prep",
+							"start": 6,
+							"span": 1,
+							"tone": "amber"
+						}
+					]
+				},
+				"body": "Each column is one calendar week from kickoff. Parallel tracks: creative mock approval (gated by album announcement for public) vs. engineering integration. Milestone dates to be set with OVO / management."
+			}
+		},
+		{
+			"position": 6,
+			"layout": "split",
+			"content": {
+				"title": "Discovery — outcomes to confirm",
+				"subtitle": "Before locking build scope and launch timing",
+				"body": "Use this checklist in workshops so motion, IA, and rollout gates match what ships.",
+				"gridItems": [
+					{
+						"label": "Hero & motion",
+						"value": "Water/hero treatment — asset format, loop length, performance budget, and reduced-motion fallback."
+					},
+					{
+						"label": "Music & video IA",
+						"value": "Cover-image navigation model; on-site player vs. outbound YouTube; grid vs. immersive layouts per breakpoint."
+					},
+					{
+						"label": "CMS vs. Git",
+						"value": "Who updates copy and artwork post-launch; whether editorial needs warrant Sanity (or similar) vs. continued structured updates."
+					},
+					{
+						"label": "Rollout gate",
+						"value": "What ships privately or in staging until album creative is public; comms checklist with label."
+					},
+					{
+						"label": "Analytics & embeds",
+						"value": "Feature.fm, mailing list, and any third-party scripts — consent and performance."
+					}
+				]
+			}
+		},
+		{
+			"position": 7,
+			"layout": "data-table",
+			"content": {
+				"title": "Investment — $2,000 all in",
+				"subtitle": "One all-in price (USD) for discovery, build with MOWA on the rebuild, editor handoff, QA, and go-live — no separate line for editor vs. development",
+				"tableRows": [
+					{
+						"Engagement": "Website overhaul — all in",
+						"What's covered": "Discovery and alignment with the creative deck; SvelteKit implementation (navigation, hero/motion, music/video templates); coordination with MOWA on the rebuild; content editor or agreed update path from kickoff; QA; staging and production deploy; launch through go-live for scope locked with this deck",
+						"All-in price": "$2,000"
+					},
+					{
+						"Engagement": "Net-new scope after kickoff",
+						"What's covered": "Extra pages/features, large CMS expansion, or work outside what we lock at kickoff — scoped before build",
+						"All-in price": "Quoted separately"
+					},
+					{
+						"Engagement": "Ongoing maintenance",
+						"What's covered": "Optional monthly retainer after launch — first months waived if agreed",
+						"All-in price": "$300* / usage based"
+					}
+				],
+				"body": "The $2,000 figure is all in: full project fee for the agreed Naomi Sharon overhaul (build + MOWA coordination + editor path + deploy), not a starting price with add-ons. Anything beyond that scope is written up and quoted before work so the headline stays a single number for what we commit to up front."
+			}
+		},
+		{
+			"position": 8,
+			"layout": "split",
+			"content": {
+				"title": "Scope highlights",
+				"subtitle": "What the overhaul delivers when we align to this deck",
+				"body": "Immersive home and inner pages that reflect Naomi’s current visual era; motion-led storytelling with accessible fallbacks; discography and video surfaces that feel premium and navigable on mobile and desktop; integration with existing smartlinks and embeds; staging for pre-announcement review; rebuild delivery aligned with MOWA — covered under the all-in engagement when scope matches this deck.",
+				"gridItems": [
+					{
+						"label": "Configuration",
+						"value": "Clear split between design-approved tokens (type, color, motion) and implementation in code."
+					},
+					{
+						"label": "Empty states",
+						"value": "Graceful handling when optional promo assets are withheld until announcement."
+					},
+					{
+						"label": "Handoff",
+						"value": "Repository access, deploy notes, and editor or README handoff depending on CMS decision."
+					}
+				]
+			}
+		}
+	]
+}
