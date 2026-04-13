@@ -1,5 +1,5 @@
 {
-	"name": "Naomi Sharon · OVO — Website overhaul (development) · Initial proposal",
+	"name": "Naomi Sharon · OVO — Website overhaul (development) · Invoice",
 	"type": "deck",
 	"slides": [
 		{
@@ -7,8 +7,8 @@
 			"layout": "header-body",
 			"content": {
 				"title": "Naomi Sharon · OVO",
-				"subtitle": "Website overhaul · Creative direction + development proposal",
-				"body": "This deck summarizes the client-facing web design direction (shared creative deck) alongside an application approach, timeline, and an all-in investment aligned to a full-site overhaul of naomisharon.com — the rebuild coordinated with MOWA.\n\nInitial visual mockups can proceed in parallel with rollout planning; a full public flip stays gated until album creative and artwork are announced, per label."
+				"subtitle": "Website overhaul · Creative direction + development (invoice)",
+				"body": "This document is the client-facing invoice and scope record: web design direction (shared creative deck), application approach, and invoiced investment for a full-site overhaul of naomisharon.com — the rebuild coordinated with MOWA. Delivery dates follow album rollout, MOWA coordination, and label gates; the timeline slide shows an illustrative schedule only (TBD).\n\nInitial visual mockups can proceed in parallel with rollout planning; a full public flip stays gated until album creative and artwork are announced, per label."
 			}
 		},
 		{
@@ -104,8 +104,9 @@
 			"layout": "gantt",
 			"content": {
 				"title": "Timeline",
-				"subtitle": "Indicative schedule from kickoff — exact dates TBD with label milestones",
+				"subtitle": "Illustrative only — concrete dates TBD with label milestones",
 				"gantt": {
+					"tbd": true,
 					"weeks": 6,
 					"columnLabels": ["1", "2", "3", "4", "5", "6"],
 					"bars": [
@@ -135,7 +136,7 @@
 						}
 					]
 				},
-				"body": "Each column is one calendar week from kickoff. Parallel tracks: creative mock approval (gated by album announcement for public) vs. engineering integration. Milestone dates to be set with OVO / management."
+				"body": "A concrete week-by-week schedule is not committed here — dates follow album rollout, MOWA coordination, and label gates. The chart above is illustrative only (TBD)."
 			}
 		},
 		{
@@ -173,13 +174,18 @@
 			"position": 7,
 			"layout": "data-table",
 			"content": {
-				"title": "Investment — $2,000 all in",
-				"subtitle": "One all-in price (USD) for discovery, build with MOWA on the rebuild, editor handoff, QA, and go-live — no separate line for editor vs. development",
+				"title": "Investment — invoiced line items",
+				"subtitle": "Mowalola creative direction and current work (USD) — discovery, build with MOWA on the rebuild, editor handoff, QA, and go-live as scoped",
 				"tableRows": [
 					{
-						"Engagement": "Website overhaul — all in",
-						"What's covered": "Discovery and alignment with the creative deck; SvelteKit implementation (navigation, hero/motion, music/video templates); coordination with MOWA on the rebuild; content editor or agreed update path from kickoff; QA; staging and production deploy; launch through go-live for scope locked with this deck",
-						"All-in price": "$2,000"
+						"Engagement": "Mowalola — creative direction",
+						"What's covered": "Creative direction and alignment with the shared web design deck for the Naomi Sharon overhaul; scoped deliverables per agreement",
+						"Amount": "$2,000"
+					},
+					{
+						"Engagement": "Current work",
+						"What's covered": "SvelteKit implementation (navigation, hero/motion, music/video templates); coordination with MOWA on the rebuild; content editor or agreed update path; QA; staging and production deploy through go-live for scope locked with this invoice",
+						"Amount": "$1,000"
 					},
 					{
 						"Engagement": "Net-new scope after kickoff",
@@ -192,7 +198,7 @@
 						"All-in price": "$300* / usage based"
 					}
 				],
-				"body": "The $2,000 figure is all in: full project fee for the agreed Naomi Sharon overhaul (build + MOWA coordination + editor path + deploy), not a starting price with add-ons. Anything beyond that scope is written up and quoted before work so the headline stays a single number for what we commit to up front."
+				"body": "Invoiced line items on this deck: $2,000 for Mowalola creative direction and $1,000 for current implementation work (SvelteKit build, MOWA coordination, editor path, QA, deploy) as scoped above. Anything outside that locked scope is quoted before we start."
 			}
 		},
 		{
@@ -201,7 +207,7 @@
 			"content": {
 				"title": "Scope highlights",
 				"subtitle": "What the overhaul delivers when we align to this deck",
-				"body": "Immersive home and inner pages that reflect Naomi’s current visual era; motion-led storytelling with accessible fallbacks; discography and video surfaces that feel premium and navigable on mobile and desktop; integration with existing smartlinks and embeds; staging for pre-announcement review; rebuild delivery aligned with MOWA — covered under the all-in engagement when scope matches this deck.",
+				"body": "Immersive home and inner pages that reflect Naomi’s current visual era; motion-led storytelling with accessible fallbacks; discography and video surfaces that feel premium and navigable on mobile and desktop; integration with existing smartlinks and embeds; staging for pre-announcement review; rebuild delivery aligned with MOWA — covered under the invoiced line items when scope matches this deck.",
 				"gridItems": [
 					{
 						"label": "Configuration",

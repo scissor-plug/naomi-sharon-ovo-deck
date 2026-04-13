@@ -55,7 +55,7 @@
 	<meta name="author" content="Scissor Studio" />
 	<meta
 		name="description"
-		content="Naomi Sharon · OVO — naomisharon.com overhaul with MOWA: stack, timeline, and $2k all-in investment proposal deck."
+		content="Naomi Sharon · OVO — naomisharon.com overhaul invoice with MOWA: Mowalola creative direction $2,000 + current work $1,000; illustrative timeline TBD with label milestones."
 	/>
 </svelte:head>
 
