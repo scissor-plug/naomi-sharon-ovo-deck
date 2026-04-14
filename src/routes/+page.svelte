@@ -55,7 +55,7 @@
 	<meta name="author" content="Scissor Studio" />
 	<meta
 		name="description"
-		content="Naomi Sharon · OVO — naomisharon.com overhaul invoice with MOWA: Mowalola creative direction $2,000 + $1,000 for work already produced on the site rebuild; illustrative timeline TBD with label milestones."
+		content="Naomi Sharon · OVO — naomisharon.com overhaul invoice with MOWA: Mowalola creative direction $2,000 + $1,000 pre-MOWA rebuild including LUAR/Raimundo-style CMS admin editor; illustrative timeline TBD with label milestones."
 	/>
 </svelte:head>
 

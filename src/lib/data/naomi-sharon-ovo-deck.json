@@ -8,7 +8,7 @@
 			"content": {
 				"title": "Naomi Sharon · OVO",
 				"subtitle": "Website overhaul · Creative direction + development (invoice)",
-				"body": "This document is the client-facing invoice and scope record: web design direction (shared creative deck), application approach, and invoiced investment for a full-site overhaul of naomisharon.com — the rebuild coordinated with MOWA. Delivery dates follow album rollout, MOWA coordination, and label gates; the timeline slide shows an illustrative schedule only (TBD).\n\nInitial visual mockups can proceed in parallel with rollout planning; a full public flip stays gated until album creative and artwork are announced, per label."
+				"body": "This document is the client-facing invoice and scope record: web design direction (shared creative deck), application approach, and invoiced investment for a full-site overhaul of naomisharon.com — the rebuild coordinated with MOWA. Delivery dates follow album rollout, MOWA coordination, and label gates; the timeline slide shows an illustrative schedule only (TBD).\n\nThe $1,000 pre-MOWA build line item includes the same CMS-style in-app admin / content editor we ship on LUAR and Raimundo Langlois: structured JSON-backed content with an authenticated editor UI for copy, media, and key site sections — not a separate headless CMS unless discovery proves we need one.\n\nInitial visual mockups can proceed in parallel with rollout planning; a full public flip stays gated until album creative and artwork are announced, per label."
 			}
 		},
 		{
@@ -82,11 +82,11 @@
 			"content": {
 				"title": "Recommended application stack",
 				"subtitle": "Grounded in the current official site — final choices confirmed in discovery",
-				"body": "The live property is already a fast SvelteKit app with static release art, Feature.fm smartlinks, and embedded media. The overhaul deepens motion, navigation, and content structure in lockstep with MOWA on the rebuild — CMS changes stay scoped in discovery.",
+				"body": "The live property is already a fast SvelteKit app with static release art, Feature.fm smartlinks, and embedded media. The overhaul deepens motion, navigation, and content structure in lockstep with MOWA on the rebuild. The invoiced pre-MOWA build includes a JSON-backed admin surface and in-browser editor matching the LUAR / Raimundo Langlois pattern; discovery only refines which fields and workflows sit in that editor vs. what stays code-owned.",
 				"gridItems": [
 					{
 						"label": "Content",
-						"value": "Start with structured data in-repo or a headless source (e.g. Sanity) if the team needs frequent updates without deploys — scoped in discovery."
+						"value": "Structured JSON with an authenticated in-app admin / CMS-style editor (same stack pattern as LUAR and Raimundo Langlois) so the team can update copy and media without deploys. A separate headless CMS (e.g. Sanity) stays optional if discovery shows editorial complexity beyond that model."
 					},
 					{
 						"label": "Frontend",
@@ -157,7 +157,7 @@
 					},
 					{
 						"label": "CMS vs. Git",
-						"value": "Who updates copy and artwork post-launch; whether editorial needs warrant Sanity (or similar) vs. continued structured updates."
+						"value": "The $1,000 line includes the in-app editor path; confirm which pages and fields are editor-managed vs. Git-only. Escalate to a headless CMS only if workflows exceed what the JSON admin can cover."
 					},
 					{
 						"label": "Rollout gate",
@@ -175,7 +175,7 @@
 			"layout": "data-table",
 			"content": {
 				"title": "Investment — invoiced line items",
-				"subtitle": "Mowalola creative direction ($2,000) and $1,000 for work already produced on the naomisharon.com rebuild — USD",
+				"subtitle": "Mowalola creative direction ($2,000) and $1,000 for the pre-MOWA site rebuild (including LUAR/Raimundo-style admin editor) — USD",
 				"tableRows": [
 					{
 						"Engagement": "Mowalola — creative direction",
@@ -183,8 +183,8 @@
 						"Amount": "$2,000"
 					},
 					{
-						"Engagement": "Site rebuild — work produced to date",
-						"What's covered": "Work already completed toward the official site rebuild: SvelteKit implementation (navigation, hero/motion, music/video templates), coordination with MOWA, content editor or agreed update path, QA, staging and production deploy — for scope locked with this invoice",
+						"Engagement": "Pre-MOWA site rebuild — work produced to date",
+						"What's covered": "Pre-MOWA site rebuild work to date: SvelteKit implementation (navigation, hero/motion, music/video templates), coordination with MOWA, plus the CMS-style in-app admin / JSON content editor (same pattern as LUAR and Raimundo Langlois), QA, staging and production deploy — for scope locked with this invoice",
 						"Amount": "$1,000"
 					},
 					{
@@ -198,7 +198,7 @@
 						"All-in price": "$300* / usage based"
 					}
 				],
-				"body": "Invoiced line items: $2,000 for Mowalola creative direction, and $1,000 specifically for work already produced for the naomisharon.com site rebuild (implementation, MOWA coordination, editor path, QA, deploy) as scoped in the rows above. Anything outside that locked scope is quoted before we start."
+				"body": "Invoiced line items: $2,000 for Mowalola creative direction, and $1,000 for the pre-MOWA naomisharon.com rebuild — including the LUAR/Raimundo-style in-browser admin editor for structured content, plus implementation, MOWA coordination, QA, and deploy — as scoped in the rows above. Anything outside that locked scope is quoted before we start."
 			}
 		},
 		{
@@ -207,7 +207,7 @@
 			"content": {
 				"title": "Scope highlights",
 				"subtitle": "What the overhaul delivers when we align to this deck",
-				"body": "Immersive home and inner pages that reflect Naomi’s current visual era; motion-led storytelling with accessible fallbacks; discography and video surfaces that feel premium and navigable on mobile and desktop; integration with existing smartlinks and embeds; staging for pre-announcement review; rebuild delivery aligned with MOWA — covered under the invoiced line items when scope matches this deck.",
+				"body": "Immersive home and inner pages that reflect Naomi’s current visual era; motion-led storytelling with accessible fallbacks; discography and video surfaces that feel premium and navigable on mobile and desktop; integration with existing smartlinks and embeds; staging for pre-announcement review; JSON-backed admin/editor for day-to-day updates (LUAR / Raimundo Langlois pattern); rebuild delivery aligned with MOWA — covered under the invoiced line items when scope matches this deck.",
 				"gridItems": [
 					{
 						"label": "Configuration",
@@ -219,7 +219,7 @@
 					},
 					{
 						"label": "Handoff",
-						"value": "Repository access, deploy notes, and editor or README handoff depending on CMS decision."
+						"value": "Repository access, deploy notes, and training on the in-app admin / JSON editor (with README for the content model)."
 					}
 				]
 			}
